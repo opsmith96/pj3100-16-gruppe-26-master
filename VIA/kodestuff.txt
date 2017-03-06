@@ -1,0 +1,5 @@
+<?php if( !empty($user) ): ?>
+            <?= $user['email']; ?>
+		
+            <a href="hovedside.php"></a>
+         <?php else: ?>
